@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-top: 5%;
+  background-color: black;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 90vh;
+  margin: auto;
+  border-radius: 20px;
+  background-color: rgba(44, 17, 7, 0.353);
+  text-align: center;
+  padding: 40px;
+}
+.pic-detail,
+.over-trying{
+    margin-bottom:2%;
+}
+p {
+  text-indent: 20px;
+}
+
+.header {
+  font-size: 50px;
+  font-family: "Lobster", cursive;
+}
+.marvel-comics .header{
+    font-size:1.2rem;
+    color: red;
+}
+.content-detail {
+  text-align: justify;
+}
+.over-trying {
+  height: 200px;
+  overflow: auto;
+}
+.over-trying::-webkit-scrollbar {
+  display: none;
+}
+
+.header span {
+  color: red;
+}
+.pic-stan-lee {
+  width: 350px;
+  height: 120;
+  border-radius: 30px;
+  box-shadow: 5px 5px 500px rgb(155, 233, 188);
+}
+
+.marvel-comics {
+  list-style-position: inside;
+  margin-bottom: 2%;
+}
+.marvel-list{
+    line-height: 36px;
+}
+
+.wiki-link{
+    padding: 12px 20px;
+    border: 3px solid white;
+    text-decoration: none;
+    color: rgb(216, 81, 9);
+    font-weight: bold;
+    border-radius:8px;
+    cursor: pointer;
+}
+.wiki-link:hover{
+    transition:1.2s;
+    color: blue;
+    transform: scale(2,1.5);
+}
